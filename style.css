@@ -25,3 +25,44 @@ body.seasonal-promo {
     ". c c c ."
     ". d d d .";
 }
+
+.categories {
+    grid-area: a;
+}
+
+.categories-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.filter-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 50%;
+}
+
+.filters {
+    grid-area: b;
+}
+
+.promotions {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    grid-area: c;
+    background-color: var(--secondary-color);
+}
+
+.offerings {
+    grid-area: d;
+    display: grid;
+    grid-template-columns: repeat(6, .5fr);
+    grid-template-rows: 1fr 1fr;
+    gap: .2em;
+}
+
